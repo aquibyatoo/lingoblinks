@@ -18,7 +18,7 @@ export const Navigation = () => {
           variant={"link"}
           href={"/our-different"}
         >
-          What Makes us Different
+          What Makes Us Different
         </Button>
         <Button as={"a"} fontWeight={400} variant={"link"} href={"/about"}>
           About
@@ -30,7 +30,7 @@ export const Navigation = () => {
           Mission
         </Button>
         <Button as={"a"} fontWeight={400} variant={"link"} href={"/support"}>
-          Support US
+          Support Us
         </Button>
       </Stack>
     </Box>

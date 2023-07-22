@@ -16,11 +16,11 @@ export const appRouter = createBrowserRouter([
     element: <WhatMakesUsDifferent />,
   },
   {
-    path: "/about-us",
+    path: "/about",
     element: <AboutUs />,
   },
   {
-    path: "/contact-us",
+    path: "/contact",
     element: <ContactUs />,
   },
   {
@@ -28,7 +28,7 @@ export const appRouter = createBrowserRouter([
     element: <OurMission />,
   },
   {
-    path: "/support-us",
+    path: "/support",
     element: <SupportUs />,
   },
 ]);
