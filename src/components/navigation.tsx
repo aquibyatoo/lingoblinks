@@ -1,4 +1,5 @@
 import { Box, Button, Stack } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   return (
@@ -12,6 +13,7 @@ export const Navigation = () => {
         <Button as={"a"} fontWeight={400} variant={"link"} href={"/"}>
           Home
         </Button>
+        <Link to={"/our-difference"}>TEST 123</Link>
         <Button
           as={"a"}
           fontWeight={400}
