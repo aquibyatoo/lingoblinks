@@ -16,7 +16,7 @@ export const Navigation = () => {
           as={"a"}
           fontWeight={400}
           variant={"link"}
-          href={"/our-different"}
+          href={"/our-difference"}
         >
           What Makes Us Different
         </Button>

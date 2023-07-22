@@ -4,7 +4,7 @@ import { WhatMakesUsDifferent } from "./screens/what-makes-us-different";
 import { AboutUs } from "./screens/about-us";
 import { ContactUs } from "./screens/contact-us";
 import { SupportUs } from "./screens/support-us";
-import { OurMission } from "./screens/our-misson";
+import { OurMission } from "./screens/our-mission";
 
 export const appRouter = createBrowserRouter([
   {
@@ -12,7 +12,7 @@ export const appRouter = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/what-makes-us-different",
+    path: "/our-difference",
     element: <WhatMakesUsDifferent />,
   },
   {
