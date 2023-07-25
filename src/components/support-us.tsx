@@ -2,8 +2,8 @@ import { Box, Image } from "@chakra-ui/react";
 
 export const SupportUs = () => {
   return (
-    <Box>
-      <Image src="/support-us.jpg" alt="support us" />;
+    <Box id="section__support_us">
+      <Image src="/support-us.jpg" alt="support us" />
     </Box>
   );
 };

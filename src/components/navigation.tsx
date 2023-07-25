@@ -1,5 +1,4 @@
 import { Box, Button, Stack } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   return (
@@ -10,28 +9,42 @@ export const Navigation = () => {
         direction={"row"}
         spacing={6}
       >
-        <Button as={"a"} fontWeight={400} variant={"link"} href={"/"}>
+        <Button as={"a"} fontWeight={400} variant={"link"} href={"#home"}>
           Home
         </Button>
-        <Link to={"/our-difference"}>TEST 123</Link>
         <Button
           as={"a"}
           fontWeight={400}
           variant={"link"}
-          href={"/our-difference"}
+          href={"#section__our_difference"}
         >
           What Makes Us Different
         </Button>
-        <Button as={"a"} fontWeight={400} variant={"link"} href={"/about"}>
+        <Button
+          as={"a"}
+          fontWeight={400}
+          variant={"link"}
+          href={"#section__about_us"}
+        >
           About
         </Button>
-        <Button as={"a"} fontWeight={400} variant={"link"} href={"/contact"}>
+        {/* <Button as={"a"} fontWeight={400} variant={"link"} href={"/contact"}>
           Contact
-        </Button>
-        <Button as={"a"} fontWeight={400} variant={"link"} href={"/mission"}>
+        </Button> */}
+        <Button
+          as={"a"}
+          fontWeight={400}
+          variant={"link"}
+          href={"#section__our_mission"}
+        >
           Mission
         </Button>
-        <Button as={"a"} fontWeight={400} variant={"link"} href={"/support"}>
+        <Button
+          as={"a"}
+          fontWeight={400}
+          variant={"link"}
+          href={"#section__support_us"}
+        >
           Support Us
         </Button>
       </Stack>

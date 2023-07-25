@@ -10,6 +10,7 @@ export const MainHero = () => {
       height={"80vh"}
       bgPosition={"center"}
       backgroundSize={"cover"}
+      id="home"
     >
       <Box>
         <Header />

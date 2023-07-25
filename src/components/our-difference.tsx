@@ -1,5 +1,9 @@
-import { Image } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 
 export const OurDifference = () => {
-  return <Image src="/what-makes-us-different.jpg" alt="our difference" />;
+  return (
+    <Box id="section__our_difference">
+      <Image src="/what-makes-us-different.jpg" alt="our difference" />
+    </Box>
+  );
 };
