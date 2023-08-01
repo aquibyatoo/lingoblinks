@@ -16,12 +16,12 @@ export const MainHero = () => {
         <Header />
       </Box>
       <Box>
-        <Heading as="h2" size="2xl" pt={"100"} pl={100} lineHeight={1.2}>
+        <Heading as="h2" size="2xl" pt={"100"} pl={[10, 100]} lineHeight={1.2}>
           Immersive language <br />
           learning starts <br /> here
         </Heading>
-        <Box pl={100} pt={50} display={"flex"}>
-          <Box mr={25}>
+        <Box pl={[10, 100]} pt={50} display={["flex"]}>
+          <Box mr={[25]}>
             <AndroidLink />
           </Box>
           <Box mt={"-1px"}>

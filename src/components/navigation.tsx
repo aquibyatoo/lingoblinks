@@ -2,7 +2,7 @@ import { Box, Button, Stack } from "@chakra-ui/react";
 
 export const Navigation = () => {
   return (
-    <Box ml={40}>
+    <Box mt={10}>
       <Stack
         flex={{ base: 1, md: 0 }}
         justify={"space-between"}
