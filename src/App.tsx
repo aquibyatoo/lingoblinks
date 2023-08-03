@@ -5,7 +5,7 @@ import { Box } from "@chakra-ui/react";
 function App() {
   return (
     <Box>
-      <Box maxW={"1400px"} ml={"auto"} mr={"auto"}>
+      <Box>
         <RouterProvider router={appRouter} />
       </Box>
     </Box>

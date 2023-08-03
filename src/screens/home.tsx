@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import { AboutUs } from "../components/about-us";
 import { DemoSection1 } from "../components/demo-section-1";
 import { DemoSection2 } from "../components/demo-section-2";
@@ -10,7 +11,7 @@ import { SupportUs } from "../components/support-us";
 
 export const Home = () => {
   return (
-    <div>
+    <Box>
       <MainHero />
       <DemoSection1 />
       <DemoSection2 />
@@ -20,6 +21,6 @@ export const Home = () => {
       <AboutUs />
       <SupportUs />
       <Footer />
-    </div>
+    </Box>
   );
 };
