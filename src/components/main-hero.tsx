@@ -3,9 +3,10 @@ import { Header } from "./header";
 import { AndroidLink } from "./android-link";
 import { AppStoreLink } from "./app-store-link";
 
+//bgColor={"#d6e3ff"}
 export const MainHero = () => {
   return (
-    <Box bgColor={"#d6e3ff"}>
+    <Box bgGradient={"linear(to-b, #d6e3ff, #e3ecff)"}>
       <Box
         height={["auto", "95vh"]}
         bgPosition={"center"}
@@ -40,14 +41,8 @@ export const MainHero = () => {
             </Box>
           </Box>
 
-          <Box
-            mt={[0, 20]}
-            mr={[0, 20]}
-            paddingTop={[14, 0]}
-            paddingBottom={[14, 0]}
-            margin={"auto"}
-          >
-            <Image src={"/main-hero-animate.gif"} height={[400, 500]} />
+          <Box paddingBottom={[14, 0]} margin={"auto"}>
+            <Image src={"/new-anime.gif"} mt={"-100px"} width={500} />
           </Box>
         </Flex>
       </Box>
