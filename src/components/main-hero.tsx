@@ -8,7 +8,7 @@ export const MainHero = () => {
     <Box bgColor={"#d6e3ff"}>
       <Box
         bgColor={"#d6e3ff"}
-        height={"95vh"}
+        height={["auto", "95vh"]}
         bgPosition={"center"}
         backgroundSize={"cover"}
         id="home"
