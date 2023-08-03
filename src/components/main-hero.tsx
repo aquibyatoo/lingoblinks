@@ -3,7 +3,6 @@ import { Header } from "./header";
 import { AndroidLink } from "./android-link";
 import { AppStoreLink } from "./app-store-link";
 
-//bgColor={"#d6e3ff"}
 export const MainHero = () => {
   return (
     <Box bgGradient={"linear(to-b, #d6e3ff, #e3ecff)"}>
@@ -41,7 +40,7 @@ export const MainHero = () => {
             </Box>
           </Box>
 
-          <Box paddingBottom={[14, 0]} margin={"auto"}>
+          <Box paddingTop={[14, 0]} margin={"auto"}>
             <Image src={"/new-anime.gif"} mt={"-100px"} width={500} />
           </Box>
         </Flex>
