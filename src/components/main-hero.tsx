@@ -8,8 +8,6 @@ export const MainHero = () => {
     <Box bgGradient={"linear(to-b, #d6e3ff, #e3ecff)"}>
       <Box
         height={["auto", "95vh"]}
-        bgPosition={"center"}
-        backgroundSize={"cover"}
         id="home"
         maxW={"1300px"}
         ml={"auto"}
