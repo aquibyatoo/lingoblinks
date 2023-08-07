@@ -9,42 +9,29 @@ export const Navigation = () => {
         direction={"row"}
         spacing={6}
       >
-        <Button as={"a"} fontWeight={400} variant={"link"} href={"#home"}>
+        <Button as={"a"} fontWeight={400} variant={"link"} href={"/"}>
           Home
         </Button>
         <Button
           as={"a"}
           fontWeight={400}
           variant={"link"}
-          href={"#section__our_difference"}
+          href={"/our-difference"}
         >
           What Makes Us Different
         </Button>
-        <Button
-          as={"a"}
-          fontWeight={400}
-          variant={"link"}
-          href={"#section__about_us"}
-        >
+        <Button as={"a"} fontWeight={400} variant={"link"} href={"/about"}>
           About
         </Button>
-        {/* <Button as={"a"} fontWeight={400} variant={"link"} href={"/contact"}>
-          Contact
-        </Button> */}
         <Button
           as={"a"}
           fontWeight={400}
           variant={"link"}
-          href={"#section__our_mission"}
+          href={"/our-mission"}
         >
           Mission
         </Button>
-        <Button
-          as={"a"}
-          fontWeight={400}
-          variant={"link"}
-          href={"#section__support_us"}
-        >
+        <Button as={"a"} fontWeight={400} variant={"link"} href={"/support-us"}>
           Support Us
         </Button>
       </Stack>
