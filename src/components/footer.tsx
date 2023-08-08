@@ -18,7 +18,7 @@ export const Footer = () => {
             as={"a"}
             fontWeight={400}
             variant={"link"}
-            href={""}
+            href={"#"}
             color={"#fff"}
             pb={2}
           >
@@ -28,7 +28,7 @@ export const Footer = () => {
             as={"a"}
             fontWeight={400}
             variant={"link"}
-            href={""}
+            href={"#"}
             color={"#fff"}
             pb={2}
           >
@@ -38,7 +38,7 @@ export const Footer = () => {
             as={"a"}
             fontWeight={400}
             variant={"link"}
-            href={""}
+            href={"#"}
             color={"#fff"}
             pb={2}
           >
@@ -48,7 +48,7 @@ export const Footer = () => {
             as={"a"}
             fontWeight={400}
             variant={"link"}
-            href={""}
+            href={"#"}
             color={"#fff"}
             pb={2}
           >

@@ -116,22 +116,26 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    href: "#home",
+    href: "/",
   },
   {
     label: "What Makes Us Different",
-    href: "#section__our_difference",
+    href: "/our-difference",
   },
   {
     label: "About",
-    href: "#section__about_us",
+    href: "/about ",
+  },
+  {
+    label: "Contact",
+    href: "#connect__with_us_section ",
   },
   {
     label: "Mission",
-    href: "#section__our_mission",
+    href: "/our-mission",
   },
   {
     label: "Support Us",
-    href: "#section__support_us",
+    href: "/support-us",
   },
 ];

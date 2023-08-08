@@ -2,6 +2,7 @@ import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import { Header } from "./header";
 import { AndroidLink } from "./android-link";
 import { AppStoreLink } from "./app-store-link";
+import Typist from "react-typist";
 
 export const MainHero = () => {
   return (
@@ -17,16 +18,19 @@ export const MainHero = () => {
           <Header />
         </Box>
         <Flex justifyContent={"space-between"} direction={["column", "row"]}>
-          <Box>
+          <Box flex={1}>
             <Heading
               as="h2"
               size="2xl"
               pt={"100"}
               pl={[10, 100]}
               lineHeight={1.2}
+              height={[220, 300]}
             >
-              Immersive language <br />
-              learning starts <br /> here
+              <Typist cursor={{ hideWhenDone: true }}>
+                Immersive language <br />
+                learning starts <br /> here
+              </Typist>
             </Heading>
             <Box pl={[10, 100]} pt={50} display={["flex"]}>
               <Box mr={[25]}>
@@ -38,7 +42,7 @@ export const MainHero = () => {
             </Box>
           </Box>
 
-          <Box paddingTop={[14, 0]} margin={"auto"}>
+          <Box paddingTop={[14, 0]} margin={"auto"} flex={1}>
             <Image src={"/new-anime.gif"} mt={"-100px"} width={500} />
           </Box>
         </Flex>
