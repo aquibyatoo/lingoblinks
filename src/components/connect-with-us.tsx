@@ -21,7 +21,11 @@ export const ConnectWithUs = () => {
   };
 
   return (
-    <Box py={[10, 20]} bgGradient={"linear(to-b, #ffe2ea, #ffeff7)"}>
+    <Box
+      py={[10, 20]}
+      bgGradient={"linear(to-b, #ffe2ea, #ffeff7)"}
+      id="connect__with_us_section"
+    >
       <Box maxW={"1300px"} margin={"auto "} p={[10, 0]}>
         <Heading as="h2" size="2xl" lineHeight={1.2} textAlign={"center"}>
           Connect With Us

@@ -27,6 +27,14 @@ export const Navigation = () => {
           as={"a"}
           fontWeight={400}
           variant={"link"}
+          href={"#connect__with_us_section"}
+        >
+          Contact
+        </Button>
+        <Button
+          as={"a"}
+          fontWeight={400}
+          variant={"link"}
           href={"/our-mission"}
         >
           Mission

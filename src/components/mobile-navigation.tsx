@@ -127,6 +127,10 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/about ",
   },
   {
+    label: "Contact",
+    href: "#connect__with_us_section ",
+  },
+  {
     label: "Mission",
     href: "/our-mission",
   },
