@@ -20,9 +20,11 @@ export const Navigation = () => {
             What Makes Us Different
           </Button>
         </Link>
-        <Button as={"a"} variant={"link"} colorScheme="black" href={"/about"}>
-          About
-        </Button>
+        <Link to={"/about"}>
+          <Button variant={"link"} colorScheme="black">
+            About
+          </Button>
+        </Link>
         <Button
           as={"a"}
           variant={"link"}
@@ -31,22 +33,18 @@ export const Navigation = () => {
         >
           Contact
         </Button>
-        <Button
-          as={"a"}
-          variant={"link"}
-          colorScheme="black"
-          href={"/our-mission"}
-        >
-          Mission
-        </Button>
-        <Button
-          as={"a"}
-          variant={"link"}
-          colorScheme="black"
-          href={"/support-us"}
-        >
-          Support Us
-        </Button>
+
+        <Link to={"/our-mission"}>
+          <Button variant={"link"} colorScheme="black">
+            Mission
+          </Button>
+        </Link>
+
+        <Link to={"/support-us"}>
+          <Button variant={"link"} colorScheme="black">
+            Support Us
+          </Button>
+        </Link>
       </Stack>
     </Box>
   );
