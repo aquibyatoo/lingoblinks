@@ -1,4 +1,5 @@
 import { Box, Button, Stack } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   return (
@@ -9,17 +10,16 @@ export const Navigation = () => {
         direction={"row"}
         spacing={6}
       >
-        <Button as={"a"} colorScheme="black" variant={"link"} href={"/"}>
-          Home
-        </Button>
-        <Button
-          as={"a"}
-          variant={"link"}
-          colorScheme="black"
-          href={"/our-difference"}
-        >
-          What Makes Us Different
-        </Button>
+        <Link to={"/"}>
+          <Button colorScheme="black" variant={"link"}>
+            Home
+          </Button>
+        </Link>
+        <Link to="/our-difference">
+          <Button variant={"link"} colorScheme="black">
+            What Makes Us Different
+          </Button>
+        </Link>
         <Button as={"a"} variant={"link"} colorScheme="black" href={"/about"}>
           About
         </Button>
